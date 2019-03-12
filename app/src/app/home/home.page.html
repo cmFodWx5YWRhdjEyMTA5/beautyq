@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card class="welcome-card">
+    <ion-img src="/assets/shapes.svg"></ion-img>
+    <ion-card-header>
+      <ion-card-subtitle>Vamos Começar</ion-card-subtitle>
+      <ion-card-title>Você ainda não possui nenhum Salão Favorito</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Faça a leitura do QR Code do Salão que se encontra sobre o balcão de recepção dos Salões Parceiros para adiciona-lo.</p>
+    </ion-card-content>
+  </ion-card>
+
+  <h1>Click Button To Scan</h1>
+ 
+  <ion-button size="large" (click)="scanCode()">Scan Code</ion-button>
+  
+  <div *ngIf="scannedData">
+    <p>Scanned Code Text : <b>{{scannedData['text']}}</b></p>
+    <p>Scanned Code Format : <b>{{scannedData['format']}}</b></p>
+  </div>
+
+</ion-content>

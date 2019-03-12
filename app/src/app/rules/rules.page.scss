@@ -1,0 +1,11 @@
+.item {
+    padding: 10px 0px;
+    border: 0px;
+    --inner-border-width: 0px;
+}
+
+.item-native {
+    margin: 0px !important;
+    padding: 0px !important;
+    --padding-start: 0px !important;
+}

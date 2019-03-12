@@ -1,0 +1,22 @@
+.swiper-slide {
+    display: grid;
+    padding: 25px;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets {
+    bottom: 30px;
+}
+.swiper-slide img {
+    width: auto;
+    max-width: 80%;
+    height: auto;
+    max-height: 80%;
+    margin: 30px auto;
+}
+.button {
+    margin-bottom: 30px !important;
+    float: left;
+}
+.swiper-pagination {
+    position: relative !important;
+    margin: 20px 0px !important;
+}

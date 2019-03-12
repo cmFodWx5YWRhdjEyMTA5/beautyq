@@ -1,1 +1,1 @@
-# beautyq
+# BeautyQ

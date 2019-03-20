@@ -1,63 +1,42 @@
-<ion-content padding class="background">
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Register</ion-title>
+  </ion-toolbar>
+</ion-header>
 
-  <img src="./assets/logo.png">
+<ion-content padding>
+  <form class="form" [formGroup]="validations_form" (ngSubmit)="tryRegister(validations_form.value)">
 
-  <ion-item>
-    <ion-label position="floating">Nome</ion-label>
-    <ion-input type="text"></ion-input>
-  </ion-item>
+    <ion-item>
+      <ion-label position="floating" color="primary">Email</ion-label>
+      <ion-input type="text" formControlName="email"></ion-input>
+    </ion-item>
+    <div class="validation-errors">
+      <ng-container *ngFor="let validation of validation_messages.email">
+        <div class="error-message"
+          *ngIf="validations_form.get('email').hasError(validation.type) && (validations_form.get('email').dirty || validations_form.get('email').touched)">
+          {{ validation.message }}
+        </div>
+      </ng-container>
+    </div>
 
-  <ion-grid>
-    <ion-row>
-      <ion-col></ion-col>
-      <ion-col></ion-col>
-    </ion-row>
-  </ion-grid>
+    <ion-item>
+      <ion-label position="floating" color="primary">Password</ion-label>
+      <ion-input type="password" formControlName="password" class="form-controll" required></ion-input>
+    </ion-item>
+    <div class="validation-errors">
+      <ng-container *ngFor="let validation of validation_messages.password">
+        <div class="error-message"
+          *ngIf="validations_form.get('password').hasError(validation.type) && (validations_form.get('password').dirty || validations_form.get('password').touched)">
+          {{ validation.message }}
+        </div>
+      </ng-container>
+    </div>
 
-  <ion-item>
-    <ion-label position="floating">Data Nascimento</ion-label>
-    <ion-input type="date"></ion-input>
-  </ion-item>
 
-  <ion-item>
-    <ion-label position="floating">E-mail</ion-label>
-    <ion-input type="email"></ion-input>
-  </ion-item>
-
-  <ion-item>
-    <ion-label position="floating">Telefone</ion-label>
-    <ion-input type="tel"></ion-input>
-  </ion-item>
-
-  <ion-item>
-    <ion-label position="floating">Senha</ion-label>
-    <ion-input type="password"></ion-input>
-  </ion-item>
-
-  <ion-list>
-    <ion-radio-group>
-      <ion-list-header>
-        <ion-label>Name</ion-label>
-      </ion-list-header>
-
-      <ion-item>
-        <ion-label>Biff</ion-label>
-        <ion-radio slot="start" value="biff" checked></ion-radio>
-      </ion-item>
-
-      <ion-item>
-        <ion-label>Griff</ion-label>
-        <ion-radio slot="start" value="griff"></ion-radio>
-      </ion-item>
-
-      <ion-item>
-        <ion-label>Buford</ion-label>
-        <ion-radio slot="start" value="buford"></ion-radio>
-      </ion-item>
-    </ion-radio-group>
-  </ion-list>
-
-  <p><a href="/login">Já tenho Cadastro</a></p>
-  <ion-button size="large" href="/rules">Cadastrar</ion-button>
-
+    <ion-button class="submit-btn" type="submit" [disabled]="!validations_form.valid">Register</ion-button>
+    <label class="error-message">{{errorMessage}}</label>
+    <label class="success-message">{{successMessage}}</label>
+  </form>
+  <p class="go-to-login">Already have an account? <a (click)="goLoginPage()">Try to Log In.</a></p>
 </ion-content>

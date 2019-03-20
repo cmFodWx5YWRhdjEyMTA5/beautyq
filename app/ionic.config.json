@@ -1,8 +1,6 @@
 {
-  "name": "beautyq",
-  "integrations": {
-    "cordova": {}
-  },
+  "name": "app",
+  "integrations": {},
   "type": "angular",
-  "id": "85041cbd"
+  "id": "616bab02"
 }

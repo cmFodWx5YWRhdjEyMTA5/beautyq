@@ -2893,13 +2893,13 @@ label.success { color: #37c936; }
 
 .card.bg-primary p, .card.bg-success p, .card.bg-info p, .card.bg-warning p, .card.bg-danger p { color: #e6e5e5; }
 
-.card .card-heading { padding: 15px 20px; position: relative; }
+.card .card-heading { padding: 15px 20px; position: relative; background: #FCFCFC; border-bottom: 1px solid #e6ecf5;}
 
 .card .card-heading .card-title { margin-bottom: 0px; }
 
 .card .card-body { padding: 15px 20px; }
 
-.card .card-footer { position: relative; padding: 10px 15px 10px 15px; min-height: 55px; background-color: transparent; }
+.card .card-footer { position: relative; padding: 10px 15px 10px 15px; min-height: 40px; background-color: transparent; }
 
 .card .card-footer .btn { margin: 0px; }
 

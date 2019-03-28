@@ -3,7 +3,7 @@
 @font-face {
   font-family: "exclusive-icon";
   src:url("../fonts/exclusive-icon.eot");
-  src:url("../fonts/exclusive-icon-.eot#iefix") format("embedded-opentype"),
+  src:url("../fonts/exclusive-icon.eot?#iefix") format("embedded-opentype"),
     url("../fonts/exclusive-icon.woff") format("woff"),
     url("../fonts/exclusive-icon.ttf") format("truetype"),
     url("../fonts/exclusive-icon.svg#exclusive-icon") format("svg");

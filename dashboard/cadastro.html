@@ -14,6 +14,10 @@
 <link rel="stylesheet" href="assets/vendors/PACE/themes/blue/pace-theme-minimal.css" />
 <link rel="stylesheet" href="assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css" />
 
+<!-- page plugins css -->
+<link rel="stylesheet" href="assets/css/sweetalert.css" />
+<link rel="stylesheet" href="assets/vendors/selectize/dist/css/selectize.default.css" />
+
 <!-- core css -->
 <link href="assets/css/ei-icon.css" rel="stylesheet">
 <link href="assets/css/themify-icons.css" rel="stylesheet">
@@ -41,11 +45,11 @@
 					<div class="col-md-5 no-pdd-horizon">
 						<div class="full-height bg-white height-100">
 
-							<div class="vertical-align full-height pdd-horizon-70">
+							<div class="vertical-align full-height pdd-horizon-50">
 								<div class="table-cell">
 									<div class="pdd-horizon-15">
 
-										<div id="shipping-form" class="width-100" method="get">
+										<!--form id="shipping-form" class="width-100"-->
 											<div id="rootwizard" class="form-wizard col-md-12 ml-auto mr-auto">
 												<ul class="nav nav-pills nav-fill">
 													<li class="nav-item">
@@ -54,21 +58,21 @@
 															<span class="title">Dados do Admin</span>
 														</a>
 													</li>
-													
+										
 													<li class="nav-item">
 														<a href="#step2" data-toggle="tab">
 															<span class="step">2</span>
 															<span class="title">Validação de Celular</span>
 														</a>
 													</li>
-													
+										
 													<li class="nav-item">
 														<a href="#step3" data-toggle="tab">
 															<span class="step">3</span>
 															<span class="title">Cadastro do Salão</span>
 														</a>
 													</li>
-													
+												
 													<li class="nav-item">
 														<a href="#step4" data-toggle="tab">
 															<span class="step">4</span>
@@ -82,39 +86,39 @@
 												</div>
 												
 												<div class="tab-content">
-													<div class="tab-pane fade in active" id="step1">
+													<div class="tab-pane fade" id="step1">
 														<div class="row">
-															<div class="col-md-10 ml-auto mr-auto">
+															<div class="col-md-12 mr-auto ml-auto">
 
 																<div class="row">
 																	<div class="col-md-6">
-																		<div class="form-group">
+																		<div class="form-group" style="margin-bottom: 15px;">
 																			<label>Nome</label>
-																			<input type="text" class="form-control" name="firstName" placeholder="Insira seu nome">
+																			<input type="text" class="form-control" placeholder="Insira seu nome">
 																		</div>
 																	</div>
-
+		
 																	<div class="col-md-6">
-																		<div class="form-group">
+																		<div class="form-group" style="margin-bottom: 15px;">
 																			<label>Sobrenome</label>
-																			<input type="text" class="form-control" name="lastName" placeholder="Insira seu sobrenome">
+																			<input type="text" class="form-control" placeholder="Insira seu sobrenome">
 																		</div>
 																	</div>
 																</div>
-																		
+																				
 																<div class="form-group">
 																	<label>E-mail</label>
-																	<input type="email" class="form-control" placeholder="Insira seu e-mail" name="email">
+																	<input type="email" class="form-control" placeholder="Insira seu e-mail">
 																</div>
-
+		
 																<div class="form-group">
 																	<label>Telefone</label>
-																	<input type="tel" class="form-control" placeholder="Insira um telefone" name="telefone">
+																	<input type="tel" class="form-control" placeholder="Insira um telefone">
 																</div>
-
+		
 																<div class="form-group">
 																	<label>Crie uma senha</label>
-																	<input type="password" class="form-control" placeholder="Crie uma senha" name="password">
+																	<input type="password" class="form-control" placeholder="Crie uma senha">
 																</div>
 
 															</div>
@@ -123,17 +127,17 @@
 													
 													<div class="tab-pane fade" id="step2">
 														<div class="row">
-															<div class="col-md-10 mr-auto ml-auto">
-																
+															<div class="col-md-12 mr-auto ml-auto">
+
 																<div class="card">
 																	<div class="card-block">
-
+		
 																		<h2 class="card-title text-center">Confirme o código enviado</h2>
 																		<p class="text-center">Enviamos um SMS com o código de confirmação do celular <br>(11) 98858-2420</p>
-
+		
 																		<p class="text-center mb-0">Não recebeu o SMS? <a href="">Clique aqui</a></p>
 																		<p class="text-center">Alterar número? <a href="">Clique aqui</a></p>
-
+		
 																	</div>
 																</div>
 
@@ -143,109 +147,107 @@
 													
 													<div class="tab-pane fade" id="step3">
 														<div class="row">
-															<div class="col-md-10 mr-auto ml-auto">
-																
+															<div class="col-md-12 mr-auto ml-auto">
+
 																<div class="form-group">
 																	<label>Nome do Salão</label>
 																	<input type="text" class="form-control" placeholder="Insira o nome do salão">
 																</div>
-
+		
 																<div class="row">
 																	<div class="col-md-4">
-																		<div class="form-group">
+																		<div class="form-group" style="margin-bottom: 15px;">
 																			<label>CEP</label>
 																			<input type="text" class="form-control" placeholder="Insira o CEP">
 																		</div>
 																	</div>
-
+		
 																	<div class="col-md-8">
-																		<div class="form-group">
+																		<div class="form-group" style="margin-bottom: 15px;">
 																			<label>Endereço</label>
 																			<input type="text" class="form-control" placeholder="Insira o Endereço">
 																		</div>
 																	</div>
 																</div>
-
+		
 																<div class="row">
 																	<div class="col-md-6">
-																		<div class="form-group">
+																		<div class="form-group" style="margin-bottom: 15px;">
 																			<label>Número</label>
 																			<input type="text" placeholder="Número" class="form-control">
 																		</div>
 																	</div>
-																		
+																				
 																	<div class="col-md-6">
-																		<div class="form-group">
+																		<div class="form-group" style="margin-bottom: 15px;">
 																			<label>Bairro</label>
 																			<input type="text" placeholder="Bairro" class="form-control">
 																		</div>
 																	</div>
 																</div>
-
+		
 																<div class="row">
 																	<div class="col-md-6">
-																		<div class="form-group">
+																		<div class="form-group" style="margin-bottom: 15px;">
 																			<label>Cidade</label>
 																			<input type="text" placeholder="Cidade" class="form-control">
 																		</div>
 																	</div>
-																			
+																					
 																	<div class="col-md-6">
-																		<div class="form-group">
+																		<div class="form-group" style="margin-bottom: 15px;">
 																			<label>Estado</label>
 																			<input type="text" placeholder="Estado" class="form-control">
 																		</div>
 																	</div>
-				
 																</div>
 
 															</div>
 														</div>
 													</div>
-													
+																	
 													<div class="tab-pane fade" id="step4">
 														<div class="row">
-															<div class="col-md-10 mr-auto ml-auto">
-																
+															<div class="col-md-12 mr-auto ml-auto">
+
 																<div class="card">
 																	<div class="card-heading">
 																		<h4 class="card-title">Itens que requerem sua atençao:</h4>
 																	</div>
-
+		
 																	<div class="card-body">
 																		<ul class="list dash bullet-success">
 																			<li>Você pode utilizar gratuitamente nosso sistema de gerenciamento de pontos de fidelidade</li>
-																			<li>Tudo o que acontece com seus pontos e suas trocas voc6e pode acompanhar em tempo real pelo dashboard</li>
+																			<li>Tudo o que acontece com seus pontos e suas trocas você pode acompanhar em tempo real pelo dashboard</li>
 																			<li>O sistema de pontos é configurável para se encaixar na sua rotina (Não esqueca de criar prêmios legais para os clientes usarem, como um corte de cabelo a cada 50 pontos ou ainda um produto, como um shampoo)</li>
 																			<li>Seus clientes podem baixar o aplicativo para acompanhar os pontos e receber suas comunicações - o que é muito recomendável mas nao obrigatório (você pode oferecer os pontos pelo seu dashboard também)</li>
 																			<li>O cartão beautycard que você pode oferecer para os seus clientes permite que você dê descontos mas com previsão de receita recorrente (que cobre parte dos gastos com os descontos)</li>
 																			<li>Você permanece com 80% do valor das assinaturas. Caso não venda assinaturas, não cobramos nadas.</li>
 																		</ul>
 																	</div>
-
+		
 																	<div class="card-footer border top">
 																		<ul class="list-unstyled list-inline text-center pdd-vertical-5">
 																			<li class="list-inline-item">
-																				<button data-toggle="modal" data-target="#default-modal" class="btn btn-sm btn-primary">Concluir</button>
+																				<button class="btn btn-info swal-success-signup">Concluir</button>
 																			</li>
 																		</ul>
 																	</div>
-
 																</div>
 															</div>
 														</div>
 													</div>
 													
 													<div class="wizard-pager">
-														<div class="col-md-10 mr-auto ml-auto">
+														<div class="">
 															<button type="button" class="btn btn-default button-previous btn-rounded">Voltar</button>
 															<button type="button" class="btn btn-primary button-next pull-right btn-rounded">Avançar</button>
 														</div>
 													</div>
 												</div>
 											</div>
-										</form>
-										
+										<!--/form-->
+
 									</div>
 								</div>
 							</div>
@@ -261,34 +263,21 @@
 		</div>
 	</div>
 
-	<!-- Modal START-->
-	<div class="modal fade" id="default-modal">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h4>Cadastro Concluído</h4>
-				</div>
-				
-				<div class="modal-body">
-					<p>Operação concluida com sucesso!!!</p>
-				</div>
-				
-				<button data-dismiss="modal" onclick="window.location='../dashboard/dashboard.html';" class="btn btn-primary btn-block no-mrg no-border pdd-vertical-15 ng-scope">
-					<span class="text-uppercase">Acessar Dashboard</span>
-				</button>
-			</div>
-		</div>
-	</div>
-
   <script src="assets/js/vendor.js"></script>
-	<script src="assets/js/app.min.js"></script>
 	
   <!-- page plugins js -->
 	<script src="assets/vendors/jquery-validation/dist/jquery.validate.min.js"></script>
 	<script src="assets/vendors/twitter-bootstrap-wizard/jquery.bootstrap.wizard.min.js"></script>
 
+	<script src="assets/vendors/sweetalert/lib/sweet-alert.js"></script>
+	<script src="assets/vendors/noty/js/noty/packaged/jquery.noty.packaged.min.js"></script>
+	<script src="assets/vendors/selectize/dist/js/standalone/selectize.min.js"></script>
+
+	<script src="assets/js/app.min.js"></script>
+
 	<!-- page js -->
 	<script src="assets/js/forms/form-wizard.js"></script>
+	<script src="assets/js/ui-elements/notification.js"></script>
 
 </body>
 </html>

@@ -56,7 +56,11 @@
   });
 
   $('.swal-success').on('click', function () {
-      swal("Good job!", "You clicked the button!", "success")
+      swal("Pronto ;)", "Enviamos para o seu e-mail instruções para você redefinir sua senha", "success")
+  });
+
+  $('.swal-success-signup').on('click', function () {
+	swal("Pronto ;)", "Operação concluída com sucesso!", "success")
   });
 
   $('.swal-function').on('click', function () {

@@ -44,31 +44,17 @@
               <div class="col-md-12">
                 <div class="row">
 
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                     <div class="widget-profile-1 card">
                       <div class="profile border bottom">
                         <img class="mrg-top-30" src="assets/images/others/img-10.jpg" alt="">
                         <h4 class="mrg-top-20 no-mrg-btm text-semibold">Victoria Clayton</h4>
                         <p>UI/UX Designer</p>
                       </div>
-                                            
-                      <div class="pdd-horizon-30 pdd-vertical-20">
-                        <h5 class="text-semibold mrg-btm-5">About</h5>
-                        <p>It looks like Sandpeople did this, all right. Look, here are Gaffi sticks, Bantha tracks. It's just...I never heard of them.</p>
-                        
-                        <div class="mrg-top-30 text-center">
-                          <ul class="list-unstyled list-inline">
-                            <li class="list-inline-item no-pdd-horizon"><a href="" class="btn btn-facebook btn-icon btn-rounded"><i class="ti-facebook"></i></a></li>
-                            <li class="list-inline-item no-pdd-horizon"><a href="" class="btn btn-twitter btn-icon btn-rounded"><i class="ti-twitter"></i></a></li>
-                            <li class="list-inline-item no-pdd-horizon"><a href="" class="btn btn-google-plus btn-icon btn-rounded"><i class="ti-google"></i></a></li>
-                          </ul>
-                        </div>
-                      
-                      </div>
                     </div>
                   </div>
                   
-                  <div class="col-md-8">
+                  <div-- class="col-md-9">
                     <div class="card">
                       <div class="card-heading border bottom"><h4 class="card-title">General Info</h4></div>
                       
@@ -103,7 +89,7 @@
                         <hr>
                         
                         <div class="row">
-                          <div class="col-md-3">p class="mrg-top-10 text-dark"> <b>Location</b></p></div>
+                          <div class="col-md-3"><p class="mrg-top-10 text-dark"> <b>Location</b></p></div>
                           <div class="col-md-6"><p class="mrg-top-10">New York, United State</p></div>
                         </div>
                         
@@ -121,7 +107,7 @@
                       </div>
                     </div>
                     
-                    <div class="card">
+                    <!--div class="card">
                       <div class="card-heading border bottom"><h4 class="card-title">Conneted Social Network</h4></div>
                       
                       <div class="card-block">
@@ -224,7 +210,7 @@
                           <a href="" class="btn btn-primary">Add</a>
                         </div>
                       </div>
-                    </div>
+                    </div-->
                     
                     <div class="card">
                       <div class="card-heading border bottom"><h4 class="card-title">Authentication</h4></div>

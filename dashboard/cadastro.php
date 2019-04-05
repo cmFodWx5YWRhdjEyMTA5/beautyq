@@ -50,6 +50,7 @@
 									<div class="pdd-horizon-15">
 
 										<!--form id="shipping-form" class="width-100"-->
+										<form action="dashboard.php" id="shipping-form" class="width-100" method="get">
 											<div id="rootwizard" class="form-wizard col-md-12 ml-auto mr-auto">
 												<ul class="nav nav-pills nav-fill">
 													<li class="nav-item">
@@ -58,21 +59,21 @@
 															<span class="title">Dados do Admin</span>
 														</a>
 													</li>
-										
+													
 													<li class="nav-item">
 														<a href="#step2" data-toggle="tab">
 															<span class="step">2</span>
 															<span class="title">Validação de Celular</span>
 														</a>
 													</li>
-										
+													
 													<li class="nav-item">
 														<a href="#step3" data-toggle="tab">
 															<span class="step">3</span>
 															<span class="title">Cadastro do Salão</span>
 														</a>
 													</li>
-												
+													
 													<li class="nav-item">
 														<a href="#step4" data-toggle="tab">
 															<span class="step">4</span>
@@ -86,53 +87,70 @@
 												</div>
 												
 												<div class="tab-content">
-													<div class="tab-pane fade" id="step1">
+													<div id="step1" class="tab-pane fade in active">
 														<div class="row">
-															<div class="col-md-12 mr-auto ml-auto">
+															<div class="col-md-10 mr-auto ml-auto">
 
-																<div class="row">
-																	<div class="col-md-6">
-																		<div class="form-group" style="margin-bottom: 15px;">
-																			<label>Nome</label>
-																			<input type="text" class="form-control" placeholder="Insira seu nome">
+																<div class="card">
+																	<div class="card-heading">
+																		<h4 class="card-title">Dados do Admin</h4>
+																	</div>
+
+																	<div class="card-body">
+																		<div class="row">
+																			<div class="col-md-6">
+																				<div class="form-group" style="margin-bottom: 15px;">
+																					<label>Nome</label>
+																					<input type="text" class="form-control" placeholder="Insira seu nome">
+																				</div>
+																			</div>
+			
+																			<div class="col-md-6">
+																				<div class="form-group" style="margin-bottom: 15px;">
+																					<label>Sobrenome</label>
+																					<input type="text" class="form-control" placeholder="Insira seu sobrenome">
+																				</div>
+																			</div>
+																		</div>
+
+																		<div class="form-group">
+																			<label>E-mail</label>
+																			<input type="email" class="form-control" placeholder="Insira seu e-mail">
+																		</div>
+
+																		<div class="form-group">
+																			<label>Telefone</label>
+																			<input type="tel" class="form-control" placeholder="Insira um telefone">
+																		</div>
+
+																		<div class="form-group mb-2">
+																			<label>Crie uma senha</label>
+																			<input type="password" class="form-control" placeholder="Crie uma senha">
 																		</div>
 																	</div>
-		
-																	<div class="col-md-6">
-																		<div class="form-group" style="margin-bottom: 15px;">
-																			<label>Sobrenome</label>
-																			<input type="text" class="form-control" placeholder="Insira seu sobrenome">
-																		</div>
-																	</div>
-																</div>
-																				
-																<div class="form-group">
-																	<label>E-mail</label>
-																	<input type="email" class="form-control" placeholder="Insira seu e-mail">
-																</div>
-		
-																<div class="form-group">
-																	<label>Telefone</label>
-																	<input type="tel" class="form-control" placeholder="Insira um telefone">
-																</div>
-		
-																<div class="form-group">
-																	<label>Crie uma senha</label>
-																	<input type="password" class="form-control" placeholder="Crie uma senha">
 																</div>
 
 															</div>
 														</div>
 													</div>
 													
-													<div class="tab-pane fade" id="step2">
+													<div id="step2" class="tab-pane fade">
 														<div class="row">
-															<div class="col-md-12 mr-auto ml-auto">
+															<div class="col-md-9 mr-auto ml-auto">
 
 																<div class="card">
 																	<div class="card-block">
-		
+
+																		<div class="mr-auto ml-auto col-md-4 mb-3">
+																			<img src="assets/images/sms-message.png" height="130px">
+																		</div>
+																		
 																		<h2 class="card-title text-center">Confirme o código enviado</h2>
+
+																		<div class="form-group mr-auto ml-auto col-md-6">
+																			<input type="email" class="form-control" placeholder="Insira o código">
+																		</div>
+
 																		<p class="text-center">Enviamos um SMS com o código de confirmação do celular <br>(11) 98858-2420</p>
 		
 																		<p class="text-center mb-0">Não recebeu o SMS? <a href="">Clique aqui</a></p>
@@ -145,59 +163,67 @@
 														</div>
 													</div>
 													
-													<div class="tab-pane fade" id="step3">
+													<div id="step3" class="tab-pane fade">
 														<div class="row">
-															<div class="col-md-12 mr-auto ml-auto">
+															<div class="col-md-10 mr-auto ml-auto">
 
-																<div class="form-group">
-																	<label>Nome do Salão</label>
-																	<input type="text" class="form-control" placeholder="Insira o nome do salão">
-																</div>
-		
-																<div class="row">
-																	<div class="col-md-4">
-																		<div class="form-group" style="margin-bottom: 15px;">
-																			<label>CEP</label>
-																			<input type="text" class="form-control" placeholder="Insira o CEP">
-																		</div>
+																<div class="card">
+																	<div class="card-heading">
+																		<h4 class="card-title">Cadastro do Salão</h4>
 																	</div>
-		
-																	<div class="col-md-8">
-																		<div class="form-group" style="margin-bottom: 15px;">
-																			<label>Endereço</label>
-																			<input type="text" class="form-control" placeholder="Insira o Endereço">
+
+																	<div class="card-body">
+																		<div class="form-group">
+																			<label>Nome do Salão</label>
+																			<input type="text" class="form-control" placeholder="Insira o nome do salão">
 																		</div>
-																	</div>
-																</div>
-		
-																<div class="row">
-																	<div class="col-md-6">
-																		<div class="form-group" style="margin-bottom: 15px;">
-																			<label>Número</label>
-																			<input type="text" placeholder="Número" class="form-control">
+
+																		<div class="row">
+																			<div class="col-md-4">
+																				<div class="form-group" style="margin-bottom: 15px;">
+																					<label>CEP</label>
+																					<input type="text" class="form-control" placeholder="Insira o CEP">
+																				</div>
+																			</div>
+
+																			<div class="col-md-8">
+																				<div class="form-group" style="margin-bottom: 15px;">
+																					<label>Endereço</label>
+																					<input type="text" class="form-control" placeholder="Insira o Endereço">
+																				</div>
+																			</div>
 																		</div>
-																	</div>
-																				
-																	<div class="col-md-6">
-																		<div class="form-group" style="margin-bottom: 15px;">
-																			<label>Bairro</label>
-																			<input type="text" placeholder="Bairro" class="form-control">
+
+																		<div class="row">
+																			<div class="col-md-6">
+																				<div class="form-group" style="margin-bottom: 15px;">
+																					<label>Número</label>
+																					<input type="text" placeholder="Número" class="form-control">
+																				</div>
+																			</div>
+																						
+																			<div class="col-md-6">
+																				<div class="form-group" style="margin-bottom: 15px;">
+																					<label>Bairro</label>
+																					<input type="text" placeholder="Bairro" class="form-control">
+																				</div>
+																			</div>
 																		</div>
-																	</div>
-																</div>
-		
-																<div class="row">
-																	<div class="col-md-6">
-																		<div class="form-group" style="margin-bottom: 15px;">
-																			<label>Cidade</label>
-																			<input type="text" placeholder="Cidade" class="form-control">
-																		</div>
-																	</div>
-																					
-																	<div class="col-md-6">
-																		<div class="form-group" style="margin-bottom: 15px;">
-																			<label>Estado</label>
-																			<input type="text" placeholder="Estado" class="form-control">
+
+																		<div class="row">
+																			<div class="col-md-6">
+																				<div class="form-group mb-2">
+																					<label>Cidade</label>
+																					<input type="text" placeholder="Cidade" class="form-control">
+																				</div>
+																			</div>
+																							
+																			<div class="col-md-6">
+																				<div class="form-group mb-2">
+																					<label>Estado</label>
+																					<input type="text" placeholder="Estado" class="form-control">
+																				</div>
+																			</div>
 																		</div>
 																	</div>
 																</div>
@@ -205,10 +231,10 @@
 															</div>
 														</div>
 													</div>
-																	
-													<div class="tab-pane fade" id="step4">
+													
+													<div id="step4" class="tab-pane fade">
 														<div class="row">
-															<div class="col-md-12 mr-auto ml-auto">
+															<div class="col-md-10 mr-auto ml-auto">
 
 																<div class="card">
 																	<div class="card-heading">
@@ -229,16 +255,17 @@
 																	<div class="card-footer border top">
 																		<ul class="list-unstyled list-inline text-center pdd-vertical-5">
 																			<li class="list-inline-item">
-																				<button class="btn btn-info swal-success-signup">Concluir</button>
+																				<button class="btn btn-primary swal-success-signup">Concluir</button>
 																			</li>
 																		</ul>
 																	</div>
 																</div>
+
 															</div>
 														</div>
 													</div>
 													
-													<div class="wizard-pager">
+													<div class="wizard-pager col-md-10 mr-auto ml-auto">
 														<div class="">
 															<button type="button" class="btn btn-default button-previous btn-rounded">Voltar</button>
 															<button type="button" class="btn btn-primary button-next pull-right btn-rounded">Avançar</button>
@@ -246,6 +273,7 @@
 													</div>
 												</div>
 											</div>
+										</form>
 										<!--/form-->
 
 									</div>
@@ -254,7 +282,7 @@
 							
 							<div class="login-footer">
 								<img class="img-responsive inline-block" src="assets/images/logo/logo.png" width="100" alt="">
-								<span class="font-size-13 pull-right pdd-top-10">Já tem uma conta? <a href="index.html">Faça o login</a></span>
+								<span class="font-size-13 pull-right pdd-top-10">Já tem uma conta? <a href="index.php">Faça o login</a></span>
 							</div>
 						</div>
 					</div>
@@ -264,20 +292,14 @@
 	</div>
 
   <script src="assets/js/vendor.js"></script>
-	
+  <script src="assets/js/app.min.js"></script>
+
   <!-- page plugins js -->
-	<script src="assets/vendors/jquery-validation/dist/jquery.validate.min.js"></script>
-	<script src="assets/vendors/twitter-bootstrap-wizard/jquery.bootstrap.wizard.min.js"></script>
+  <script src="assets/vendors/jquery-validation/dist/jquery.validate.min.js"></script>
+  <script src="assets/vendors/twitter-bootstrap-wizard/jquery.bootstrap.wizard.min.js"></script>
 
-	<script src="assets/vendors/sweetalert/lib/sweet-alert.js"></script>
-	<script src="assets/vendors/noty/js/noty/packaged/jquery.noty.packaged.min.js"></script>
-	<script src="assets/vendors/selectize/dist/js/standalone/selectize.min.js"></script>
-
-	<script src="assets/js/app.min.js"></script>
-
-	<!-- page js -->
-	<script src="assets/js/forms/form-wizard.js"></script>
-	<script src="assets/js/ui-elements/notification.js"></script>
+  <!-- page js -->
+  <script src="assets/js/forms/form-wizard.js"></script>
 
 </body>
 </html>

@@ -46,7 +46,7 @@
 										<h2>Login</h2>
 										<p class="mrg-btm-15 font-size-13">Por favor, digite seu e-mail e senha para entrar</p>
 										
-										<form action="dashboard.html">
+										<form action="dashboard.php">
 											<div class="form-group">
 												<input type="email" class="form-control" placeholder="E-mail">
 											</div>
@@ -67,7 +67,7 @@
 							
 							<div class="login-footer">
 								<img class="img-responsive inline-block" src="assets/images/logo/logo.png" width="100" alt="">
-								<span class="font-size-13 pull-right pdd-top-10">Não tem uma conta? <a href="cadastro.html">Inscreva-se Agora</a></span>
+								<span class="font-size-13 pull-right pdd-top-10">Não tem uma conta? <a href="cadastro.php">Inscreva-se Agora</a></span>
 							</div>
 						</div>
 					</div>

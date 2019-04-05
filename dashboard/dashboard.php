@@ -161,26 +161,84 @@
                   </div>
         
                   <div class="card-body">
-                    <h4 class="card-title">Respostas</h4>
+                    <div class="mrg-top-15">
+                      <div><canvas height="230" id="allocation-chart"></canvas></div>
+                    </div>
+                    
+                    <div class="mrg-top-15">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <div class="relative mrg-top-10">
+                            <span class="status"> </span>
+                            <span class="pdd-left-20 font-size-16"><b class="text-dark">10%</b> Nota 1</span>
+                          </div>
+                        </div>
 
-                    <div class="col-md-12 pl-0 pr-0">
-                      <p class="mb-1">Nota 1</p>
-                      <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%"></div></div>
+                        <div class="col-lg-4">
+                          <div class="relative mrg-top-10">
+                            <span class="status"> </span>
+                            <span class="pdd-left-20 font-size-16"><b class="text-dark">10%</b> Nota 2</span>
+                          </div>
+                        </div>
 
-                      <p class="mb-1">Nota 2</p>
-                      <div class="progress progress-primary"><div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"></div></div>
+                        <div class="col-lg-4">
+                          <div class="relative mrg-top-10">
+                            <span class="status"> </span>
+                            <span class="pdd-left-20 font-size-16"><b class="text-dark">10%</b> Nota 3</span>
+                          </div>
+                        </div>
 
-                      <p class="mb-1">Nota 3</p>
-                      <div class="progress progress-success"><div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%"></div></div>
+                        <div class="col-lg-4">
+                          <div class="relative mrg-top-10">
+                            <span class="status"> </span>
+                            <span class="pdd-left-20 font-size-16"><b class="text-dark">10%</b> Nota 4</span>
+                          </div>
+                        </div>
 
-                      <p class="mb-1">Nota 4</p>
-                      <div class="progress progress-info"><div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%"></div></div>
+                        <div class="col-lg-4">
+                          <div class="relative mrg-top-10">
+                            <span class="status"> </span>
+                            <span class="pdd-left-20 font-size-16"><b class="text-dark">10%</b> Nota 5</span>
+                          </div>
+                        </div>
 
-                      <p class="mb-1">Nota 5</p>
-                      <div class="progress progress-warning"><div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%"></div></div>
+                        <div class="col-lg-4">
+                          <div class="relative mrg-top-10">
+                            <span class="status"> </span>
+                            <span class="pdd-left-20 font-size-16"><b class="text-dark">10%</b> Nota 6</span>
+                          </div>
+                        </div>
 
-                      <p class="mb-1">Nota 6</p>
-                      <div class="progress progress-danger"><div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%"></div></div>
+                        <div class="col-lg-4">
+                          <div class="relative mrg-top-10">
+                            <span class="status"> </span>
+                            <span class="pdd-left-20 font-size-16"><b class="text-dark">10%</b> Nota 7</span>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                          <div class="relative mrg-top-10">
+                            <span class="status"> </span>
+                            <span class="pdd-left-20 font-size-16"><b class="text-dark">10%</b> Nota 8</span>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                          <div class="relative mrg-top-10">
+                            <span class="status"> </span>
+                            <span class="pdd-left-20 font-size-16"><b class="text-dark">10%</b> Nota 9</span>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                          <div class="relative mrg-top-10">
+                            <span class="status"> </span>
+                            <span class="pdd-left-20 font-size-16"><b class="text-dark">10%</b> Nota 10</span>
+                          </div>
+                        </div>
+
+                      </div>
+                      
                     </div>
                   </div>
                 </div>
@@ -191,14 +249,13 @@
             <div class="row">
               <div class="col-lg-12">
                 <div class="card">
+                  <div class="card-heading">
+                    <h4 class="card-title">Checkin</h4>
+                  </div>
+
                   <div class="card-block">
-                    <div class="inline-block">
-                      <h1 class="no-mrg-vertical">$168.90</h1>
-                      <p>This Month</p>
-                    </div>
-                      
-                    <div class="pdd-top-25 inline-block pull-right">
-                      <span class="label label-success label-lg mrg-left-5">+18%</span>
+                    <div class="mrg-top-20">
+                      <div><canvas id="line-chart" style="height:120px;"></canvas></div>
                     </div>
                   </div>
                 </div>
@@ -219,7 +276,6 @@
   <script src="assets/js/vendor.js"></script>
 
   <!-- page plugins js -->
-  <script src="assets/vendors/nouislider/distribute/nouislider.js"></script>
   <script src="assets/vendors/bower-jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
   <script src="assets/js/maps/jquery-jvectormap-us-aea.js"></script>
   <script src="assets/vendors/d3/d3.min.js"></script>
@@ -231,7 +287,6 @@
 
   <!-- page js -->
   <script src="assets/js/dashboard/dashboard.js"></script>
-  <script src="assets/js/ui-elements/progress-slider.js"></script>
 
 </body>
 </html>

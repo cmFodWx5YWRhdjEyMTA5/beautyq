@@ -62,7 +62,7 @@
                           
                             <ul class="tools text-right col-lg-2 pl-0 pr-0">
                               <li>
-                                <a href="" class="btn btn-primary btn-rounded p-0 mb-0 mr-0" style="width:36px; height:36px; line-height:36px; color:#FFF;"><i class="ti-plus"></i></a>
+                                <button data-toggle="modal" data-target="#default-modal" class="btn btn-primary btn-rounded p-0 mb-0 mr-0" style="width:36px; height:36px; line-height:36px; color:#FFF;"><i class="ti-plus"></i></button>
                               </li>
                             </ul>
                           </div>
@@ -277,7 +277,7 @@
 
                                 <li class="font-size-13 info pl-5 pt-0 pb-0">
                                   <span class="title font-size-16" style="float:left; width:100%;">
-                                    <a href="" class="btn btn-default mb-0">EDITAR</a>
+                                    <button data-toggle="modal" data-target="#default-modal" class="btn btn-default mb-0">EDITAR</button>
                                   </span>
                                 </li>
 
@@ -289,13 +289,97 @@
                             <hr>
                             
                             <div class="detail-body">
-                              <h4 class="">Empire Strikes Back</h4>
-                              <div class="mrg-top-15">
-                                <p>Run! Yes. A Jedi's strength flows from the Force. But beware of the dark side. Anger...fear...aggression. The dark side of the Force are they. Easily they flow, quick to join you in a fight. If once you start down the dark path, forever will it dominate your destiny, consume you it will, as it did Obi-Wan's apprentice. Vader. Is the dark side stronger? No...no...no. Quicker, easier, more seductive. But how am I to know the good side from the bad? You will know. When you are calm, at peace. Passive. A Jedi uses the Force for knowledge and defense, never for attack. But tell me why I can't... No, no, there is no why. Nothing more will I teach you today. Clear your mind of questions. Mmm. Mmmmmm.</p>
-										            <p>Luke! Luke, don't - it's a trap! It's a trap! The Force is with you, young Skywalker. But you are not a Jedi yet.</p>
-										            <p>Alert all commands. Ready for the tractor beam. Artoo, come back at once! You haven't finished with me yet! You don't know how to fix the hyperdrive. Chewbacca can do it. I'm standing here in pieces, and you're having delusions of grandeur! Oh, you did it!</p>
-										            <p>What...what's going on? Turn around, Chewbacca, I can't see. Oh...they've encased him in carbonite. He should be quite well-protected - if he survives the freezing process, that is. Well, Calrissian, did he survive? Yes, he's alive. And in perfect hibernation. He's all yours bounty hunter. Reset the chamber for Skywalker. Skywalker has just landed, my lord. Good. See to it that he finds his way here. Calrissian, take the princess and the Wookiee to my ship. You said they'd be left in the city under my supervision. I am altering the deal. Pray I don't alter it any further.</p>
-									            </div>
+                              <div class="tab-primary">
+                                <ul class="nav nav-pills" role="tablist">
+                                  <li class="nav-item"><a href="#nav-pills-1" class="nav-link active" role="tab" data-toggle="tab">TIMELINE</a></li>
+                                  <li class="nav-item"><a href="#nav-pills-2" class="nav-link" role="tab" data-toggle="tab">VENDA ASSINATURAS</a></li>
+                                </ul>
+                                
+                                <div class="tab-content">
+                                  <div role="tabpanel" class="tab-pane fade in active" id="nav-pills-1">
+                                    <div class="pdd-vertical-20">
+                                      
+                                      <div class="table-overflow">
+                                        <table class="table table-hover">
+                                          <!--thead>
+                                            <tr>
+                                              <th>Firstname</th>
+                                              <th>Lastname</th>
+                                              <th>Email</th>
+                                            </tr>
+                                          </thead-->
+                                          
+                                          <tbody>
+                                            <tr>
+                                              <td>Trocou 30 pontos por uma Limpeza de Pele</td>
+                                              <td>do Cliente Josimar</td>
+                                              <td>há 3 minutos</td>
+                                            </tr>
+                                            
+                                            <tr>
+                                              <td>Fez Checkin</td>
+                                              <td>para Cliente Bárbara</td>
+                                              <td>há 6 horas</td>
+                                            </tr>
+                                            
+                                            <tr>
+                                              <td>Acrescentou 30 pontos</td>
+                                              <td>para Cliente Gabriela</td>
+                                              <td>Ontem ás 8h</td>
+                                            </tr>
+
+                                            <tr>
+                                              <td>Retirados 30 pontos</td>
+                                              <td>do Cliente Josimar</td>
+                                              <td>Dia 28/04/2018 as 14h</td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </div>
+
+                                    </div>
+                                  </div>
+                                  
+                                  <div role="tabpanel" class="tab-pane fade" id="nav-pills-2">
+                                    <div class="pdd-vertical-20">
+
+                                      <div class="table-overflow">
+                                        <table class="table table-hover">
+                                          <!--thead>
+                                            <tr>
+                                              <th>Firstname</th>
+                                              <th>Lastname</th>
+                                            </tr>
+                                          </thead-->
+                                          
+                                          <tbody>
+                                            <tr>
+                                              <td><b>Josimar Fonseca</b></td>
+                                              <td>há 3 minutos</td>
+                                            </tr>
+                                            
+                                            <tr>
+                                              <td><b>Bárbara Paesn</b></td>
+                                              <td>há 6 horas</td>
+                                            </tr>
+                                            
+                                            <tr>
+                                              <td><b>Roberta Yuri</b></td>
+                                              <td>Ontem ás 8h</td>
+                                            </tr>
+
+                                            <tr>
+                                              <td><b>Passos Dias Aguiar</b></td>
+                                              <td>Dia 28/04/2018 as 14h</td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </div>
+
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
 									          </div>    
                             
                             <div class="detail-foot"></div>
@@ -308,6 +392,69 @@
               </div>
             </div>
           </div>
+
+          <!-- Modal START-->
+          <div class="modal fade" id="default-modal">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header"><h4>Cadastro - Novo Profissional</h4></div>
+                
+                <div class="modal-body">
+
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label>Nome Completo</label>
+                        <input type="text" placeholder="Insira seu nome" class="form-control">
+                      </div>
+                    </div>
+                  </div>
+                    
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label>Número do Telefone</label>
+                        <input type="text" placeholder="Insira o número" class="form-control">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <label>N. do Banco</label>
+                        <input type="text" placeholder="Número do banco" class="form-control">
+                      </div>
+                    </div>
+                      
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <label>Agência</label>
+                        <input type="text" placeholder="Número da agência" class="form-control">
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <label>Conta</label>
+                        <input type="text" placeholder="Número da conta" class="form-control">
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                
+                <div class="modal-footer no-border">
+                  <div class="text-right">
+                    <button class="btn btn-default btn-sm" data-dismiss="modal">Cancelar</button>
+                    <button class="btn btn-primary btn-sm" data-dismiss="modal">Cadastrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal END--> 
+
         </div>
         <!-- Content Wrapper END -->
         

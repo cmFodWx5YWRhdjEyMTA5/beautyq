@@ -43,6 +43,8 @@
         <!-- Content Wrapper START -->
         <div class="main-content">
           <div class="container-fluid">
+
+            <div class="page-title"><h4>Configurações do Display</h4></div>
             
             <div class="row">
               <div class="col-lg-7">
@@ -50,7 +52,30 @@
 
                   <div class="card-block">
                     <h4 class="card-title">Personalização</h4>
-                    <div class="mrg-top-20"></div>
+                    <div class="mrg-top-20">
+
+                      <div class="form-group">
+                        <label>Inserir Logo</label>
+                        <input type="email" placeholder="Enter email" class="form-control">
+                      </div>
+
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label>Cor do Header</label>
+                            <input type="text" placeholder="Enter email" class="form-control">
+                          </div>
+                        </div>
+                        
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <label>Cor do Meio</label>
+                            <input type="text" placeholder="Enter email" class="form-control">
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
                   </div>
 
                 </div>
@@ -60,7 +85,10 @@
                 <div class="card">
   
                   <div class="card-block">
-                    <h4 class="card-title">Preview do display</h4>
+                    <h4 class="card-title">
+                      Preview do display
+                    </h4>
+                    
                     <div class="mrg-top-20"></div>
                   </div>
   

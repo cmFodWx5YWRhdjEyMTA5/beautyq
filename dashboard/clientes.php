@@ -75,7 +75,7 @@
 
                                   <div class="col-md-2">
                                     <div class="form-group mb-0">
-                                      <select id="selectize-dropdown">
+                                      <select class="form-control">
                                         <option value="" disabled selected>Tipo de Operação</option>
                                         <option value="1">1</option>
                                         <option value="2">2</option>
@@ -96,7 +96,7 @@
 
                                   <div class="col-md-2">
                                     <div class="form-group mb-0">
-                                      <select id="selectize-dropdown-2">
+                                      <select class="form-control">
                                         <option value="" disabled selected>Quem fez a Operação</option>
                                         <option value="Thomas Edison">Thomas Edison</option>
                                         <option value="Nikola">Nikola</option>
@@ -119,25 +119,292 @@
                         </div>
 
                         <div class="row">
-                          <div class="col-lg-7">
+                          <div class="col-lg-12">
                             <div class="card">
 
-                              <div class="card-block">
-                                <h4 class="card-title">Personalização</h4>
-                                <div class="mrg-top-20"></div>
+                              <div class="email-app">
+                                <div class="email-wrapper row ml-0">
+                                  <div class="email-list">
+                                    <div class="email-list-tools" style="padding: 10px;">
+                                      <div class="row mr-0 ml-0">
+                                        <div class="input-icon form-group col-lg-10 pl-0 pr-0 mb-0">
+                                          <i class="ti-search"></i>
+                                          <input type="text" class="form-control m-b" placeholder="Buscar...">
+                                        </div>
+                                      
+                                        <ul class="tools text-right col-lg-2 pl-0 pr-0">
+                                          <li>
+                                            <button data-toggle="modal" data-target="#default-modal" class="btn btn-primary btn-rounded p-0 mb-0 mr-0" style="width:36px; height:36px; line-height:36px; color:#FFF;"><i class="ti-plus"></i></button>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  
+                                    <div class="email-list-wrapper scrollable">
+                                      <div class="list-view-group-container">
+                                        <ul class="email-list-item">
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-1.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-2.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-3.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-4.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-5.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-6.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-7.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-8.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-9.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-10.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-11.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-12.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                              
+                                  <div class="email-content">                       
+                                    <div class="email-content-wrapper">
+                                      <div class="email-content-detail">
+                                        <div class="detail-head">
+                                          <ul class="list-unstyled list-info">
+                                            <li>
+                                              <div class="pdd-vertical-10 pdd-horizon-20">	
+                                                <img class="thumb-img img-circle" alt="" src="assets/images/avatars/thumb-1.jpg">
+                                                <div class="info">
+                                                  <span class="title font-size-16">Cleverson Muniz</span>
+                                                  <span class="sub-title"><span>To: (11) 98765-9876</span></span>
+                                                </div>
+                                              </div>
+                                            </li>
+                                          </ul>
+                                      
+                                          <ul class="tools">
+                                            <li class="font-size-13 info p-0" style="border-right: 1px solid #DDD;">
+                                              <span class="title font-size-16" style="float:left; width:100%;"><b>PONTOS</b></span>
+                                              <span class="sub-title" style="float:left; width:100%;">200</span>    
+                                            </li>
+
+                                            <li class="font-size-13 info pl-5 pt-0 pb-0">
+                                              <span class="title font-size-16" style="float:left; width:100%;">
+                                                <button data-toggle="modal" data-target="#default-modal" class="btn btn-default mb-0">EDITAR</button>
+                                              </span>
+                                            </li>
+
+                                            <!--li class="d-none d-md-inline-block"><a href=""><i class="fa fa-reply"></i></a></li-->
+                                            <!--li class="d-none d-md-inline-block"><a href=""><i class="ti-more-alt"></i></a></li-->
+                                          </ul>
+                                        </div> 
+
+                                        <hr>
+                                        
+                                        <div class="detail-body pl-0 pr-0">
+
+                                          <div class="mt-2 mb-4">
+                                            <a href="" class="btn btn-default">Pontuar</a>
+                                            <a href="" class="btn btn-default">Fazer uma Troca</a>
+                                            <a href="" class="btn btn-default">Assinar BeautyCard</a>
+                                          </div>
+
+                                          <div class="table-overflow">
+                                            <table class="table table-hover">
+                                              <!--thead>
+                                                <tr>
+                                                  <th>Firstname</th>
+                                                  <th>Lastname</th>
+                                                  <th>Email</th>
+                                                </tr>
+                                              </thead-->
+                                              
+                                              <tbody>
+                                                <tr>
+                                                  <td>Trocou 30 pontos por uma Limpeza de Pele</td>
+                                                  <td>Feito pelo APP</td>
+                                                  <td>há 3 minutos</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                  <td>Fez Checkin</td>
+                                                  <td>Feito por Barbara</td>
+                                                  <td>há 6 horas</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                  <td>Acrescentou 30 pontos</td>
+                                                  <td>Feito por Gabriela</td>
+                                                  <td>Ontem ás 8h</td>
+                                                </tr>
+
+                                                <tr>
+                                                  <td>Retirados 30 pontos</td>
+                                                  <td>Feito pelo APP</td>
+                                                  <td>Dia 28/04/2018 as 14h</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </div>
+
+                                        </div>    
+                                        
+                                        <div class="detail-foot"></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
 
-                            </div>
-                          </div>
-                          
-                          <div class="col-lg-5">
-                            <div class="card">
-                
-                              <div class="card-block">
-                                <h4 class="card-title">Preview do display</h4>
-                                <div class="mrg-top-20"></div>
-                              </div>
-                
                             </div>
                           </div>
                         </div>
@@ -147,27 +414,296 @@
                     <div role="tabpanel" class="tab-pane fade" id="nav-pills-2">
                       <div class="pdd-vertical-20">
                         <div class="row">
-                          <div class="col-lg-7">
+
+                          <div class="col-lg-12">
                             <div class="card">
 
-                              <div class="card-block">
-                                <h4 class="card-title">Personalização</h4>
-                                <div class="mrg-top-20"></div>
+                              <div class="email-app">
+                                <div class="email-wrapper row ml-0">
+                                  <div class="email-list">
+                                    <div class="email-list-tools" style="padding: 10px;">
+                                      <div class="row mr-0 ml-0">
+                                        <div class="input-icon form-group col-lg-10 pl-0 pr-0 mb-0">
+                                          <i class="ti-search"></i>
+                                          <input type="text" class="form-control m-b" placeholder="Buscar...">
+                                        </div>
+                                      
+                                        <ul class="tools text-right col-lg-2 pl-0 pr-0">
+                                          <li>
+                                            <button data-toggle="modal" data-target="#default-modal" class="btn btn-primary btn-rounded p-0 mb-0 mr-0" style="width:36px; height:36px; line-height:36px; color:#FFF;"><i class="ti-plus"></i></button>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  
+                                    <div class="email-list-wrapper scrollable">
+                                      <div class="list-view-group-container">
+                                        <ul class="email-list-item">
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-1.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-2.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-3.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-4.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-5.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-6.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-7.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-8.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-9.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-10.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-11.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+
+                                          <li class="email-item">
+                                            <div class="email-tick user-profile"><img class="profile-img img-fluid" src="assets/images/avatars/thumb-12.jpg" alt=""></div> 
+                                          
+                                            <div class="open-mail"> 
+                                              <div class="email-detail pl-2"> 
+                                                <p class="from">Cleverson Muniz</p> 
+                                                <p class="subject">(11) 98765-9876</p> 
+                                                <span class="datetime">
+                                                  <a href="" class="btn btn-default btn-rounded mb-0 p-0" style="width: 36px; height: 36px; line-height: 36px;">X</a>
+                                                </span>
+                                              </div>
+                                            </div>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                              
+                                  <div class="email-content">                       
+                                    <div class="email-content-wrapper">
+                                      <div class="email-content-detail">
+                                        <div class="detail-head">
+                                          <ul class="list-unstyled list-info">
+                                            <li>
+                                              <div class="pdd-vertical-10 pdd-horizon-20">	
+                                                <img class="thumb-img img-circle" alt="" src="assets/images/avatars/thumb-1.jpg">
+                                                <div class="info">
+                                                  <span class="title font-size-16">Cleverson Muniz</span>
+                                                  <span class="sub-title"><span>To: (11) 98765-9876</span></span>
+                                                </div>
+                                              </div>
+                                            </li>
+                                          </ul>
+                                      
+                                          <ul class="tools">
+                                            <li class="font-size-13 info p-0" style="border-right: 1px solid #DDD;">
+                                              <span class="title font-size-16" style="float:left; width:100%;"><b>PONTOS</b></span>
+                                              <span class="sub-title" style="float:left; width:100%;">200</span>    
+                                            </li>
+
+                                            <li class="font-size-13 info pl-5 pt-0 pb-0">
+                                              <span class="title font-size-16" style="float:left; width:100%;">
+                                                <button data-toggle="modal" data-target="#default-modal" class="btn btn-default mb-0">EDITAR</button>
+                                              </span>
+                                            </li>
+
+                                            <!--li class="d-none d-md-inline-block"><a href=""><i class="fa fa-reply"></i></a></li-->
+                                            <!--li class="d-none d-md-inline-block"><a href=""><i class="ti-more-alt"></i></a></li-->
+                                          </ul>
+                                        </div> 
+
+                                        <hr>
+                                        
+                                        <div class="detail-body pl-0 pr-0">
+
+                                          <div class="mt-2 mb-4">
+                                            <a href="" class="btn btn-default">Pontuar</a>
+                                            <a href="" class="btn btn-default">Fazer uma Troca</a>
+                                            <a href="" class="btn btn-default">Assinar BeautyCard</a>
+                                          </div>
+
+                                          <div class="table-overflow">
+                                            <table class="table table-hover">
+                                              <!--thead>
+                                                <tr>
+                                                  <th>Firstname</th>
+                                                  <th>Lastname</th>
+                                                  <th>Email</th>
+                                                </tr>
+                                              </thead-->
+                                              
+                                              <tbody>
+                                                <tr>
+                                                  <td>Trocou 30 pontos por uma Limpeza de Pele</td>
+                                                  <td>Feito pelo APP</td>
+                                                  <td>há 3 minutos</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                  <td>Fez Checkin</td>
+                                                  <td>Feito por Barbara</td>
+                                                  <td>há 6 horas</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                  <td>Acrescentou 30 pontos</td>
+                                                  <td>Feito por Gabriela</td>
+                                                  <td>Ontem ás 8h</td>
+                                                </tr>
+
+                                                <tr>
+                                                  <td>Retirados 30 pontos</td>
+                                                  <td>Feito pelo APP</td>
+                                                  <td>Dia 28/04/2018 as 14h</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </div>
+
+                                        </div>    
+                                        
+                                        <div class="detail-foot"></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
                               </div>
 
                             </div>
                           </div>
-                          
-                          <div class="col-lg-5">
-                            <div class="card">
-                
-                              <div class="card-block">
-                                <h4 class="card-title">Preview do display</h4>
-                                <div class="mrg-top-20"></div>
-                              </div>
-                
-                            </div>
-                          </div>
+
                         </div>
                       </div>
                     </div>

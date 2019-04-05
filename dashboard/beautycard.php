@@ -99,6 +99,69 @@
               </div>
             </div>
           </div>
+
+          <!-- Modal START-->
+          <div class="modal fade" id="default-modal">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header"><h4>Cadastro - Novo Profissional</h4></div>
+                
+                <div class="modal-body">
+
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label>Nome Completo</label>
+                        <input type="text" placeholder="Insira seu nome" class="form-control">
+                      </div>
+                    </div>
+                  </div>
+                    
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label>Número do Telefone</label>
+                        <input type="text" placeholder="Insira o número" class="form-control">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <label>N. do Banco</label>
+                        <input type="text" placeholder="Número do banco" class="form-control">
+                      </div>
+                    </div>
+                      
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <label>Agência</label>
+                        <input type="text" placeholder="Número da agência" class="form-control">
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="form-group">
+                        <label>Conta</label>
+                        <input type="text" placeholder="Número da conta" class="form-control">
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                
+                <div class="modal-footer no-border">
+                  <div class="text-right">
+                    <button class="btn btn-default btn-sm" data-dismiss="modal">Cancelar</button>
+                    <button class="btn btn-primary btn-sm" data-dismiss="modal">Cadastrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal END--> 
+          
         </div>
         <!-- Content Wrapper END -->
         

@@ -44,13 +44,49 @@
         <div class="main-content">
           <div class="container-fluid">
 
+            <div class="page-title"><h4>Pesquisa de satisfação</h4></div>
+
             <div class="row">
               <div class="col-lg-12">
                 <div class="card">
-
+                  
                   <div class="card-block">
-                    <h4 class="card-title">Pesquisa de satisfação</h4>
-                    <div class="mrg-top-20"></div>
+                    <h4 class="card-title">
+                      Pesquisa de satisfação
+                      <div class="toggle-checkbox checkbox-inline toggle-sm ml-3">
+                        <input type="checkbox" name="toggle1" id="toggle1" checked="">
+                        <label for="toggle1" class="mb-0"></label>
+                      </div>
+                    </h4>
+
+                    <hr>
+
+                    <div class="mrg-top-20">
+                      <h4>Escolher tipo de Pesquisa:</h4>
+                     
+                      <div class="row">
+                        <div class="col-md-6">
+
+                          <div class="form-group">
+                            <div class="col-md-12">
+                              <div class="radio radio-inline">
+                                <input type="radio" checked="" name="radio1" id="rad1">
+                                <label for="rad1">NPS (default)</label>
+                              </div>
+                              
+                              <div class="radio radio-inline">
+                                <input type="radio" checked="" name="radio1" id="rad2">
+                                <label for="rad2">Emocional</label>
+                              </div>                
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+
+                      <h4>Preview</h4>
+                    </div>
+
                   </div>
 
                 </div>

@@ -6,7 +6,7 @@
 
       <li>
         <a class="side-nav-toggle" href="javascript:void(0);">
-          <span class="btn btn-info btn-sm mb-0">Novo Checkin/Usuário</span>
+          <span class="btn btn-primary btn-sm mb-0">Novo Checkin/Usuário</span>
         </a>
       </li>
 

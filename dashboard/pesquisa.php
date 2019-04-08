@@ -47,7 +47,7 @@
             <div class="page-title"><h4>Pesquisa de satisfação</h4></div>
 
             <div class="row">
-              <div class="col-lg-12">
+              <div class="col-lg-7">
                 <div class="card">
                   
                   <div class="card-block">
@@ -62,7 +62,7 @@
                     <hr>
 
                     <div class="mrg-top-20">
-                      <h4>Escolher tipo de Pesquisa:</h4>
+                      <label>Escolher tipo de Pesquisa:</label>
                      
                       <div class="row">
                         <div class="col-md-6">
@@ -84,13 +84,70 @@
                         </div>
                       </div>
 
-                      <h4>Preview</h4>
+                      <div class="row">
+                        <div class="form-group col-md-12">
+                          <label>Enviar Push em quanto tempo após o Check in</label>
+                          <input type="text" class="form-control" name="number" placeholder="Horas" required>
+                        </div>
+                      </div>
+
+                      <div class="form-group row mb-0">
+                        <div class="col-md-12">
+                          <div class="text-right">
+                            <button type="submit" class="btn btn-primary">Salvar</button>
+                          </div>
+                        </div>
+                      </div>
                     </div>
 
                   </div>
 
                 </div>
-              </div>  
+              </div>
+              
+              <div class="col-lg-5">
+                <div class="card">
+                  
+                  <div class="card-block">
+                    <h4 class="card-title">Preview</h4>
+
+                    <hr>
+
+                    <div class="mrg-top-20">
+                      <div class="form-group">
+                        <label>NPS (default)</label>
+                        <div class="display-block">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-default">1</button>
+                            <button type="button" class="btn btn-default">2</button>
+                            <button type="button" class="btn btn-default">3</button>
+                            <button type="button" class="btn btn-default">4</button>
+                            <button type="button" class="btn btn-default">5</button>
+                            <button type="button" class="btn btn-default">6</button>
+                            <button type="button" class="btn btn-default">7</button>
+                            <button type="button" class="btn btn-default">8</button>
+                            <button type="button" class="btn btn-default">9</button>
+                            <button type="button" class="btn btn-default">10</button>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label>Emocional</label>
+                        <div class="display-block">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-default"><i class="ei ei-smiley-1"></i></button>
+                            <button type="button" class="btn btn-default"><i class="ei ei-smiley"></i></button>
+                            <button type="button" class="btn btn-default"><i class="ei ei-straight"></i></button>
+                            <button type="button" class="btn btn-default"><i class="ei ei-sad"></i></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
             </div>
           </div>
         </div>

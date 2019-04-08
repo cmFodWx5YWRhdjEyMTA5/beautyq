@@ -5,14 +5,14 @@
       <li><a class="side-nav-toggle" href="javascript:void(0);"><i class="ti-view-grid"></i></a></li>
 
       <li>
-        <a class="side-nav-toggle" href="javascript:void(0);">
+        <a data-toggle="modal" data-target="#modal-checkin">
           <span class="btn btn-primary btn-sm mb-0">Novo Checkin/Usuário</span>
         </a>
       </li>
 
       <li class="user-profile dropdown">
         <a href="" class="dropdown-toggle" data-toggle="dropdown">
-          <img class="profile-img img-fluid" src="assets/images/user.jpg" alt="">
+          <img class="profile-img img-fluid" src="assets/images/salon-logo.jpg" alt="">
           <div class="user-info">
             <span class="name pdd-right-5">Nome do Salão</span>
             <i class="ti-angle-down font-size-10"></i>

@@ -100,7 +100,7 @@
                           <div class="mrg-top-20">
                             <p>Você ainda não cadastrou nenhum Prêmio a ser trocado por pontos pelos seus clientes! Comece agora clicando no botao de <strong>"Adicionar"</strong>!</p>
                             <div class="mrg-top-25">
-                              <button data-toggle="modal" data-target="#default-modal" class="btn btn-primary btn-block no-mrg no-border pdd-vertical-15 ng-scope">Adicionar Prêmio</button>
+                              <button data-toggle="modal" data-target="#default-modal-premio" class="btn btn-primary btn-block no-mrg no-border pdd-vertical-15 ng-scope">Adicionar Prêmio</button>
                             </div>
                           </div>
                         </div>
@@ -202,7 +202,7 @@
                         </div>
 
                         <div class="mrg-top-25">
-                          <button data-toggle="modal" data-target="#default-modal" class="btn btn-primary btn-block no-mrg no-border pdd-vertical-15 ng-scope">Adicionar Prêmio</button>
+                          <button data-toggle="modal" data-target="#default-modal-premio" class="btn btn-primary btn-block no-mrg no-border pdd-vertical-15 ng-scope">Adicionar Prêmio</button>
                         </div>
                       </div>
                     </div>
@@ -210,62 +210,7 @@
                 </div>
               </div>
             </div>
-          </div>
-
-          <!-- Modal START-->
-          <div class="modal fade" id="default-modal">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h4>Cadastro de Prêmios</h4>
-                </div>
-                
-                <div class="modal-body">
-                  
-                  <div class="form-group">
-                    <label>Nome do Serviço</label>
-                    <input type="text" placeholder="Insira o nome do serviço que servirá de premio" class="form-control">
-                  </div>
-
-                  <div class="form-group">
-                    <label>Descrição</label>
-                    <textarea class="form-control" style="min-height: 100px;" placeholder="Descreva o serviço" rows="2" id="form-1-5"></textarea>
-                  </div>
-
-                  <div class="form-group">
-                    <label>Limites</label>
-                    <input type="text" placeholder="Insira o limite" class="form-control">
-                  </div>
-
-                  <div class="form-group">
-                    <label>Pontuação requerida para troca</label>
-                    <input type="number" class="form-control" name="number" placeholder="Número de pontos necessários para troca" required>
-                  </div>
-
-                  <div class="form-group row" style="margin-bottom: 0px;">
-                    <div class="col-md-10">
-                      <div class="radio radio-inline">
-                        <input type="radio" checked="" name="radio1" id="rad1">
-                        <label for="rad1">Produto</label>
-                      </div>
-                      <div class="radio radio-inline">
-                        <input type="radio" checked="" name="radio1" id="rad2">
-                        <label for="rad2">Serviço</label>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-                
-                <div class="modal-footer">
-                  <div class="text-right">
-                    <button class="btn btn-default btn-sm" data-dismiss="modal">Cancelar</button>
-                    <button class="btn btn-primary btn-sm" data-dismiss="modal">Cadastrar</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          </div>          
 
         </div>
         <!-- Content Wrapper END -->

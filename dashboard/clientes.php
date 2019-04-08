@@ -89,7 +89,7 @@
                                     <div class="form-group mb-0">
                                       <div class="timepicker-input input-group">
                                         <span class="input-group-text"><i class="ti-calendar"></i></span>
-                                        <input type="text" class="form-control datepicker-2" placeholder="Pick your date" data-provide="datepicker">
+                                        <input type="text" class="form-control datepicker-2" placeholder="Selecione um data" data-provide="datepicker">
                                       </div>
                                     </div>
                                   </div>
@@ -134,7 +134,7 @@
                                       
                                         <ul class="tools text-right col-lg-2 pl-0 pr-0">
                                           <li>
-                                            <button data-toggle="modal" data-target="#default-modal" class="btn btn-primary btn-rounded p-0 mb-0 mr-0" style="width:36px; height:36px; line-height:36px; color:#FFF;"><i class="ti-plus"></i></button>
+                                            <button data-toggle="modal" data-target="#default-modal-cliente" class="btn btn-primary btn-rounded p-0 mb-0 mr-0" style="width:36px; height:36px; line-height:36px; color:#FFF;"><i class="ti-plus"></i></button>
                                           </li>
                                         </ul>
                                       </div>
@@ -339,7 +339,7 @@
 
                                             <li class="font-size-13 info pl-5 pt-0 pb-0">
                                               <span class="title font-size-16" style="float:left; width:100%;">
-                                                <button data-toggle="modal" data-target="#default-modal" class="btn btn-default mb-0">EDITAR</button>
+                                                <button data-toggle="modal" data-target="#default-modal-cliente" class="btn btn-default mb-0">EDITAR</button>
                                               </span>
                                             </li>
 
@@ -353,9 +353,9 @@
                                         <div class="detail-body pl-0 pr-0">
 
                                           <div class="mt-2 mb-4">
-                                            <a href="" class="btn btn-default">Pontuar</a>
-                                            <a href="" class="btn btn-default">Fazer uma Troca</a>
-                                            <a href="" class="btn btn-default">Assinar BeautyCard</a>
+                                            <a data-toggle="modal" data-target="#modal-sm" class="btn btn-default">Pontuar</a>
+                                            <a data-toggle="modal" data-target="#default-modal-trocar" class="btn btn-default">Fazer uma Troca</a>
+                                            <a data-toggle="modal" data-target="#default-modal-beautycard" class="btn btn-default">Assinar BeautyCard</a>
                                           </div>
 
                                           <div class="table-overflow">
@@ -430,7 +430,7 @@
                                       
                                         <ul class="tools text-right col-lg-2 pl-0 pr-0">
                                           <li>
-                                            <button data-toggle="modal" data-target="#default-modal" class="btn btn-primary btn-rounded p-0 mb-0 mr-0" style="width:36px; height:36px; line-height:36px; color:#FFF;"><i class="ti-plus"></i></button>
+                                            <button data-toggle="modal" data-target="#default-modal-cliente" class="btn btn-primary btn-rounded p-0 mb-0 mr-0" style="width:36px; height:36px; line-height:36px; color:#FFF;"><i class="ti-plus"></i></button>
                                           </li>
                                         </ul>
                                       </div>
@@ -649,9 +649,9 @@
                                         <div class="detail-body pl-0 pr-0">
 
                                           <div class="mt-2 mb-4">
-                                            <a href="" class="btn btn-default">Pontuar</a>
-                                            <a href="" class="btn btn-default">Fazer uma Troca</a>
-                                            <a href="" class="btn btn-default">Assinar BeautyCard</a>
+                                            <a data-toggle="modal" data-target="#modal-sm" class="btn btn-default">Pontuar</a>
+                                            <a data-toggle="modal" data-target="#default-modal-trocar" class="btn btn-default">Fazer uma Troca</a>
+                                            <a data-toggle="modal" data-target="#default-modal-beautycard" class="btn btn-default">Assinar BeautyCard</a>
                                           </div>
 
                                           <div class="table-overflow">
@@ -714,6 +714,7 @@
             </div>
 
           </div>
+
         </div>
         <!-- Content Wrapper END -->
         
